@@ -1,0 +1,127 @@
+body{
+    background-image: url(HM-Back.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    color:#fcfcfc;
+    
+}
+
+header{
+    display:flex;
+    background-color: rgb(240, 229, 229);
+    height:90px;
+    margin: 30px;
+    justify-content: space-between;
+}
+
+.logo img{
+    margin: auto 10px;
+    float : left;
+    position :relative
+   
+}
+.para{
+    text-align: center;
+    font-size:17px;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  nav li {
+    float: left;
+  }
+  
+  nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px 5px;
+    text-decoration: none;
+  }
+  
+  nav li a:hover {
+    background-color: #111;
+  }
+.grid{
+    display: grid;
+    display: flex;
+    flex-wrap: wrap;
+}
+#about{
+    text-align: center;
+}
+.grid1{
+    display:grid;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.grid2{
+    display:grid;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#products{
+    text-align: center;
+}
+#move{
+    width: 1300px;
+    height: 800px;
+    background-color: black;
+    overflow: auto auto;
+    white-space: nowrap;
+    margin: auto;
+}
+#move .slide{
+    display: inline-block;
+    width:50px;
+}
+.ROW{
+    
+    display: flex;
+    padding: 20px;
+}
+form{
+    background-color: rgb(204, 249, 149);
+    margin-left:"100px";
+    padding: 10px;
+    border: 2px solid black;
+    border-radius:10% ;
+    height: 150px;
+    width: 500px;
+}
+.inputbox{
+    color: aliceblue;
+    
+}
+.grid3{
+    display:grid;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color:  transparent;
+    border: #fcfcfc;
+}
+#reviews{
+    text-align: center;
+    
+}
+#contact{
+    text-align: center;
+    margin-left: 100px;
+}
+#inputbox{
+    text-align:center;
+}
+a{
+    margin-left: 150px;
+    justify-content: space-between;
+}
